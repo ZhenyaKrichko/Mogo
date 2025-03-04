@@ -247,10 +247,14 @@
   display: flex;
   -moz-column-gap: 30px;
        column-gap: 30px;
+  position: relative;
 }
 .amazing__text-wrapper {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  left: 100px;
+  top: 20px;
 }
 .amazing__text {
   max-width: 270px;
